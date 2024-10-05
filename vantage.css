@@ -1,0 +1,287 @@
+body{
+    overflow-x: hidden;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+.main-div1 .video1{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+nav{
+    width: 90%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav .logo{
+    width: 80px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    color: #fff;
+    font-weight: 600;
+    margin-top: 300px;
+    font-size: 150px;
+}
+.intro{
+    position: relative;
+    top: 200px;
+    background-color: black;
+    width: 100%;
+    height: 800px;
+}
+.intro-div1{
+    color: #fff;
+    padding: 200px 200px;
+    font-size: 40px;
+    width: 80%;
+    height: 400px;
+}
+.engine{
+    position: relative;
+    background-color: black;
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 800px; 
+    top: 220px;
+    /* padding: 20px 5%; */
+}
+.engine .engine-heading{
+    font-size: 40px;
+    
+}
+.cont-flex{
+    display: flex;
+
+}
+.eng-img{
+    padding-top: 10%;
+    width: 50%;
+    height: 600px;
+    padding-right: 10%;
+}
+.eng-img img{
+    width: 100%;
+    height: 500px;
+    /* box-shadow: 3px 3px 10px white; */
+}
+.eng-cont{
+    width: 500px;
+    height: 400px;
+    /* padding: 20px 20px; */
+    color: #fff;
+    font-size: 25px;
+    padding: 40px 20px 20px 20px;
+    /* text-align: center; */
+    
+    margin-top: 170px;
+}
+.engine-2{
+    position: relative;
+    display: flex;
+    background-color: black;
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 800px; 
+    top: 250px
+}
+.engine-2 .eng2-img{
+    padding-top: 10%;
+    width: 50%;
+    height: 600px;
+    padding-right: 10%;
+}
+.eng2-img img{
+    width: 100%;
+    height: 500px;
+}
+.eng2-cont{
+    padding: 200px 20px 20px 20px ;
+    width: 500px;
+    height: 600px;
+
+}
+.eng2-cont #first{
+    color: #fff;
+    font-size: 40px;
+}
+.eng2-cont #small{
+    color: #fff;
+    font-size: 25px;
+}
+.interior{
+    position: relative;
+    display: flex;
+    background-color: black;
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 800px; 
+    top: 260px
+}
+.interior .int-div1{
+    padding-top: 10%;
+    width: 50%;
+    height: 600px;
+    padding-right: 10%;
+}
+.int-div1 img{
+    width: 100%;
+    height: 500px;
+}
+.interior .int-div2{
+    padding: 200px 20px 20px 20px ;
+    width: 500px;
+    height: 600px;
+}
+.int-div2 #title-1{
+    color: #fff;
+    font-size: 40px;
+}
+.int-div2 #intr-cont{
+    color: #fff;
+    font-size: 25px;
+}
+.EXTERIOR{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 100px;
+}
+.exter-vid{
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    top: 150px;
+}
+.ext-div1{
+    background-color:rgb(0,0,0,.2);
+    width: 300px;
+    font-size: 50px;
+    font-weight: 500;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    padding: 80px 5%;
+    position: relative;
+    height: 300px;
+    top: 200px;
+    align-items: center;
+    justify-content: center;
+}
+footer .foot-logo{
+    width:100px ;
+    margin-left: 72px;
+}
+footer .foot-div1{
+    font-size: 40px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+.engine-DBX{
+    background-size: cover;
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: 800px;
+    
+    background-image: url(https://configurator.astonmartin.com/iod/GB/AM888/2048/N4IghgdglgtmAuUD2EDOIBcBtAugGhAGMwYBTAJzE1CgBNMQAhABQH1mEALAYRIrADKnJPFYBRAB7wQBJAAdEKdBlC1SAc3KlSmAGwAGAL6GCpCADco5FGQjSVIOgwHwArrWSsAalFSuwADZQAF4UMiDyimjUIKjwCDoYIAAiAIIAmiDGBGTx1CYgcta0roT2NPRJqQCyABz14ZHI0Q6EKABmUOqYWCAAzACMAJy64QDszNzc4TUC0wSpAHIAKgMzzAJrCwCqA7XhjADyywAsBwKpWyDcjLpD4dwAYpvhYix9r4-6AEzhjwDiez+1WWABlwv9uH19BDmIxFuFqgAJSaHZJiMTbREo7hosSg-5gxjY1HogBKSOSJNx6IErgg1iQ7UOcjM4UWAHV9FdmKlvmcCHDQTykdweaCTqNBWTAeEyQBpfQAVnCAkY3NVYmYZNVj2++wIAmYYm47DRAElttVWP8yRiEYaBByPoblv8VYbtm7wssxBqCL7agKQGDmGMfWTdhGOfcAxz1T6OfL5iH0voXSAvGT9NVwhyybpUjJQFMYqWksa+r9sqAkeCHHWGGTQfp7jWQEjDjFOwxQbU+vt23MYsOkqCxgJqyZQAJ6zP6yGAFLQrLTkACZYjzdj-uDtcCLEOA8MZbLmHtsExS87gervCgZaHh+HkB92-tjkCGKf3v9ttrjlt1AQDfz6f98CIJB6XgcgAE8GH+YljEMIA);
+}
+.DBX-cont{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    color: #fff;
+    width: 30%;
+    font-size: 20px;
+}
+.DBX-int{
+    background-size: cover;
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: 800px;
+    
+    background-image: url(https://configurator.astonmartin.com/iod/GB/AM888/2048/N4IghgdglgtmAuUD2EDOIBcBtAugGhAGMwYBTAJzE1CgBNMQAhABQH1mEALAYRIrADKnJPFYBJCPBAEkAB0Qp0GULVIBzcqVKYADAF89BUhABuUcijKTqIOgwHwArrWSsAalFSOwAGygAvCmkQOQU0G1R4BG0MEAARAEEATRADAjIo6kMQWQtaR0IpZVt6WISAWQAOauDQ5HDiwhQAMyg1TCwQAGYARh0AJmCAdmZubmCEgDkAFR6J5gE5ggSAVR6h4MYAeWmAFk2BBKWQbkYdADZg7gAxReCAURZLgnvrgeDrgHEeyo-y6YAMsFPnEtscANL3JLPEDlAASoy2cXu9xWwXhiORAM+0ziACUgQQMdwkfc8XC4uiESTkQJHBALEhmltZMZgpMAOo6Y7MBL9fYEZiMAE8uHcHkA3Yw5h477BPHgnQAVmCAjOxwE9xlquuXR0quY924rAESUmCQW91YWzxU0+91VAg5XVV00++oIAhWbuC03uuxVBEBzA2QbxK0GYY5vyDHLOvo54PGQaSOhdBBW5W5wTceJ0DoIHLxSsm0lAYxsFdihq6gzSoDhQOKjYYBKGl3rIDhWxs3YYAMqPQAnKlDKABONihP+4OR52BE3x02QNM4UO62OQAJpjZtzPh6O8OO0VOTyu1xujyvF9f93PN9MT6BH3fD6AOQIbB-X52OTvin+P56PgRBIPS8DkAAngwnyMKOehAA)
+}
+.DBX-int-cont{
+    position: relative;
+    top: 550px;
+    left: 50px;
+    color: #fff;
+    width: 30%;
+    font-size: 15px;
+}
+.content-db12{
+    text-align: center;
+}
+.content-db12 h1{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 550px;
+    /* padding-left: 20px; */
+    font-size: 50px;
+
+}
+.engine-DB12{
+    background-size: cover;
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: 800px;
+    
+    background-image: url(db12-eng.png)
+}
+.DB12-cont{
+    position: relative;
+    top: 550px;
+    left: 50px;
+    color: #fff;
+    width: 30%;
+    font-size: 20px;
+}
+.DB12-int{
+    background-size: cover;
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: 800px;
+    
+    background-image: url(db12-int.png)
+}
+.DB12-int-cont{
+    position: relative;
+    top: 450px;
+    left: 100px;
+    color: #fff;
+    width: 20%;
+    font-size: 15px;
+}
